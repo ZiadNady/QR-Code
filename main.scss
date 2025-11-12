@@ -1,0 +1,64 @@
+@import 'theme.css';
+
+body{
+    background-color: var(--Slate-300);
+    margin: 0;
+    padding: 0;
+}
+
+.Container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Card{
+    width: 290px;
+    height: max-content;
+    background-color: var(--white);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    gap: 24px;
+    &__header{
+        width: 100%;
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &_image{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    &__body{
+        width: 100%;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        &_title{
+            font-family: var(--tp-bold-font-family);
+            font-size: var(--tp-bold-font-size);
+            line-height: var(--tp-bold-line-height);
+            letter-spacing: var(--tp-bold-letter-spacing);
+            font-weight: var(--tp-bold-font-weight);
+            text-align: center;
+        }
+        &_description{
+            font-family: var(--tp-regular-font-family);
+            font-size: var(--tp-regular-font-size);
+            line-height: var(--tp-regular-line-height);
+            letter-spacing: var(--tp-regular-letter-spacing);
+            font-weight: var(--tp-regular-font-weight);
+            text-align: center;
+        }
+    }
+}
+
