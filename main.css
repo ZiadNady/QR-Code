@@ -14,7 +14,7 @@ body {
 }
 
 .Card {
-  width: 290px;
+  width: 300px;
   height: -moz-max-content;
   height: max-content;
   background-color: var(--white);
