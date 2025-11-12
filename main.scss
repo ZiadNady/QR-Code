@@ -15,16 +15,16 @@ body{
 }
 
 .Card{
-    width: 290px;
+    width: 320px;
     height: max-content;
     background-color: var(--white);
-    border-radius: 10px;
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 24px;
-    gap: 24px;
+    padding: 15px;
+    gap: 10px;
     &__header{
         width: 100%;
         flex: 1;
@@ -34,6 +34,7 @@ body{
         &_image{
             width: 100%;
             height: 100%;
+            border-radius: 10px;
         }
     }
     &__body{
@@ -50,6 +51,7 @@ body{
             letter-spacing: var(--tp-bold-letter-spacing);
             font-weight: var(--tp-bold-font-weight);
             text-align: center;
+            margin: var(--margin-200) 0 0 0;
         }
         &_description{
             font-family: var(--tp-regular-font-family);
@@ -58,6 +60,7 @@ body{
             letter-spacing: var(--tp-regular-letter-spacing);
             font-weight: var(--tp-regular-font-weight);
             text-align: center;
+            margin-top: var(--margin-200);
         }
     }
 }

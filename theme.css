@@ -31,4 +31,9 @@
     --space-500: 40px;
     --space-300: 24px;
     --space-200: 16px;
+
+    /* margin */
+    --margin-500: 40px;
+    --margin-300: 24px;
+    --margin-200: 16px;
 }
