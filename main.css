@@ -14,7 +14,7 @@ body {
 }
 
 .Card {
-  width: 300px;
+  width: 320px;
   height: -moz-max-content;
   height: max-content;
   background-color: var(--white);
@@ -23,8 +23,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 15px;
-  gap: 10px;
+  padding: var(--margin-200) var(--margin-200) 0;
+  gap: 0;
 }
 .Card__header {
   width: 100%;
@@ -45,6 +45,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: var(--margin-200) var(--margin-200) var(--margin-500);
 }
 .Card__body_title {
   font-family: var(--tp-bold-font-family);
@@ -53,7 +54,7 @@ body {
   letter-spacing: var(--tp-bold-letter-spacing);
   font-weight: var(--tp-bold-font-weight);
   text-align: center;
-  margin: var(--margin-200) 0 0 0;
+  margin-bottom: var(--margin-200);
 }
 .Card__body_description {
   font-family: var(--tp-regular-font-family);
@@ -62,5 +63,5 @@ body {
   letter-spacing: var(--tp-regular-letter-spacing);
   font-weight: var(--tp-regular-font-weight);
   text-align: center;
-  margin-top: var(--margin-200);
+  margin-top: 0;
 }/*# sourceMappingURL=main.css.map */

@@ -15,7 +15,7 @@ body{
 }
 
 .Card{
-    width: 300px;
+    width: 320px;
     height: max-content;
     background-color: var(--white);
     border-radius: 20px;
@@ -23,8 +23,8 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 15px;
-    gap: 10px;
+    padding: var(--margin-200) var(--margin-200) 0;
+    gap: 0;
     &__header{
         width: 100%;
         flex: 1;
@@ -44,6 +44,7 @@ body{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding: var(--margin-200) var(--margin-200) var(--margin-500);
         &_title{
             font-family: var(--tp-bold-font-family);
             font-size: var(--tp-bold-font-size);
@@ -51,7 +52,7 @@ body{
             letter-spacing: var(--tp-bold-letter-spacing);
             font-weight: var(--tp-bold-font-weight);
             text-align: center;
-            margin: var(--margin-200) 0 0 0;
+            margin-bottom : var(--margin-200);
         }
         &_description{
             font-family: var(--tp-regular-font-family);
@@ -60,7 +61,7 @@ body{
             letter-spacing: var(--tp-regular-letter-spacing);
             font-weight: var(--tp-regular-font-weight);
             text-align: center;
-            margin-top: var(--margin-200);
+            margin-top: 0;
         }
     }
 }
